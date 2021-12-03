@@ -10,15 +10,15 @@
 </head>
 
 <body>
-    <h1>Renseignez vos informations ici!</h1>
+    <h1>Venez goutez aux fruits défendu en vous inscrivant!</h1>
     <div class="formulaire">
     <form method="post" action="traitement.php">
         <p>
             <label for="Nom d'utilisateur">Nom d'utilisateur:</label>
-            <input type="text" name="Nom utilisateur" id="Région" placeholder="Ex : Xx_DARK_SASUKE_xX" size="30" />
+            <input type="text" name="Nom utilisateur" id="Région" placeholder="Ex : Xx_DARK_SASUKE_xX" size="20" />
         </p>
         <p>
-            <label for="Mot de passe">Région:</label>
+            <label for="Mot de passe">Mot de passe:</label>
             <input type="password" name="mdp" id="mdp" size="20" />
         </p>
         <p>
@@ -26,6 +26,10 @@
             <input type="text" name="pseudo" id="Nom" placeholder="Ex : Dupont" size="20" />
         </p>
         <div>
+        <p>
+            <label for="Email">Email:</label>
+            <input type="email" name="pseudo" id="Nom" placeholder="Ex : dupont@gmail.com" size="20" />
+        </p>
         <p>
             <label for="Prénom">Prénom:</label>
             <input type="text" name="Prénom" id="Prénon" placeholder="Ex : Michel" size="20" />
@@ -40,8 +44,16 @@
             <input type="text" name="Région" id="Région" placeholder="Ex : Gard" size="20" />
         </p>
         <p>
-            <label for="Pays">Pays:</label>
-            <input type="text" name="Pays" id="Pays" placeholder="Ex : Pays" size="20" />
+            <div class="pays">
+            <p>Pays:</p>
+            <select name="Langue" id="Langue">
+                <option value="France">🇫🇷 France</option>
+                <option value="English">🏴󠁧󠁢󠁥󠁮󠁧󠁿 English</option>
+                <option value="Espagnol">🇪🇸 Espanol</option>
+                <option value="Italien">🇮🇹 Italien</option>
+            </select>
+            </div>
+
         </p>
         <p>
             <label for="radio">Sexe:</label>
@@ -52,15 +64,17 @@
         </p>
         <p>
             <label for="Recherche">Que cherchez-vous ? :</label>
-            <input type="text" name="Find" id="find" placeholder="Ex : Plan à 3, Coup d'un soir" size="20" />
-        </p>
-        <p>
-            <label for="Pays">Pays:</label>
-            <input type="text" name="Pays" id="Pays" placeholder="Ex : Pays" size="20" />
+            <select name="Langue" id="Langue">
+                <option value="France">Relation Sérieuse</option>
+                <option value="English">Coup d'un soir</option>
+                <option value="Espagnol">Plan a plusieurs</option>
+                <option value="Italien">Relation libre..</option>
+            </select>
         </p>
         <div class="button">
         <input class="left-button" type="submit" value="Enter pour valider" onclick="alert('Vous allez recevoir un mail de confirmation')" accesskey="q">
-        <input  type="reset" value="Alt + s pour reset" accesskey="s">
+        <input class="right-button" type="reset" value="Alt + s pour reset" accesskey="s">
+     
         </div>
     </form>
 </div>
