@@ -7,14 +7,48 @@ body{
     background-image: url(Image/bg.jpg);
     background-size: cover;
 }
+.form{
+    display:flex;
+    justify-content:center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom:3%;
+}
 p{
+    padding-top: 1%;
     display: flex;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .header {
-    background: white;
-    justify-content: center;
-    padding-left: 15%;
-    padding-right: 15%
+        border: 1px solid;
+        box-shadow: 0px 5px 5px black;
+        margin-left: 35%;
+        margin-right: 35%;
 }
+label{
+    display: flex;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+.left-button{
+    margin-right: 10px;
+}
+.formulaire{
+    border: 1px solid;
+    box-shadow: 0px 5px 5px black;
+    margin-left: 35%;
+    margin-right: 35%;
+
+}
+
+
+
