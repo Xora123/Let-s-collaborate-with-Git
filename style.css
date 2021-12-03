@@ -7,14 +7,26 @@ body{
     background-image: url(bg.jpg);
     background-size: cover;
 }
+.form{
+    display:flex;
+    justify-content:center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom:3%;
+}
 p{
+    padding-top: 1%;
     display: flex;
     justify-content: center;
 }
-zaeeeeeeeeeee
-za
-zaeeeeeeeeeeeaz
-
-aze
-zae
-zae
+label{
+    display: flex;
+    text-align: center;
+}
+.bla{
+    display: block;
+    margin: 0 auto;
+}

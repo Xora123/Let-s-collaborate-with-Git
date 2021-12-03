@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet">
@@ -7,37 +8,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion</title>
 </head>
+
 <body>
-<p>Renseignez vos informations ici!</p>
-<form method="post" action="traitement.php">
-    <p>
-        <label for="Nom">Nom:</label>
-        <input type="text" name="pseudo" id="Nom" placeholder="Ex : Dupont" size="30"  />
-    </p>            
-    <p>
-        <label  for="Prénom">Prénom:</label>
-        <input type="text" name="Prénom" id="Prénon" placeholder="Ex : Michel" size="30"/>
-    </p>
-    <p>
-        <label  for="Age">Age:</label>
-        <input type="text" name="Age" id="Age" placeholder="Ex : Age" size="30"/>
-    </p>
-    <p>
-        <label  for="Région">Région:</label>
-        <input type="text" name="Région" id="Région" placeholder="Ex : Gard"size="30"/>
-    </p>
-    <p>
-        <label  for="Pays">Pays:</label>
-        <input type="text" name="Pays" id="Pays" placeholder="Ex : Pays"size="30"/>
-    </p>   
-    <p>
-        <label  for="Recherche">Que cherchez-vous ? :</label>
-        <input type="text" name="Find" id="find" placeholder="Ex : Plan à 3, Coup d'un soir"size="30"/>
-    </p> 
-    <p>
-        <label  for="Pays">Pays:</label>
-        <input type="text" name="Pays" id="Pays" placeholder="Ex : Pays"size="30"/>
-    </p>
-</form>                                 
+    <h1>Renseignez vos informations ici!</h1>
+    <form method="post" action="traitement.php">
+        <p>
+            <label for="Nom">Nom:</label>
+            <input type="text" name="pseudo" id="Nom" placeholder="Ex : Dupont" size="30" />
+        </p>
+        <div>
+        <p>
+            <label for="Prénom">Prénom:</label>
+            <input type="text" name="Prénom" id="Prénon" placeholder="Ex : Michel" size="30" />
+        </p>
+        </div>
+        <p>
+            <label for="Age">Age:</label>
+            <input type="text" name="Age" id="Age" placeholder="Ex : Age" size="30" />
+        </p>
+        <p>
+            <label for="Région">Région:</label>
+            <input type="text" name="Région" id="Région" placeholder="Ex : Gard" size="30" />
+        </p>
+        <p>
+            <label for="Pays">Pays:</label>
+            <input type="text" name="Pays" id="Pays" placeholder="Ex : Pays" size="30" />
+        </p>
+        <p>
+            <label for="Recherche">Que cherchez-vous ? :</label>
+            <input type="text" name="Find" id="find" placeholder="Ex : Plan à 3, Coup d'un soir" size="30" />
+        </p>
+        <p>
+            <label for="Pays">Pays:</label>
+            <input type="text" name="Pays" id="Pays" placeholder="Ex : Pays" size="30" />
+        </p>
+        <input class="bla" type="submit" value="Entrée pour valider" accesskey="enter">
+    </form>
 </body>
+
 </html>
