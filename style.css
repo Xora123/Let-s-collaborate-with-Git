@@ -4,17 +4,17 @@
 }
 
 body{
-    background-image: url(bg.jpg);
+    background-image: url(Image/bg.jpg);
     background-size: cover;
 }
 p{
     display: flex;
     justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-zaeeeeeeeeeee
-za
-zaeeeeeeeeeeeaz
-
-aze
-zae
-zae
+.header {
+    background: white;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%
+}
