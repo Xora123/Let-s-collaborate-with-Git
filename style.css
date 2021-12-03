@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(bg.jpg);
+    background-image: url(Image/bg.jpg);
     background-size: cover;
 }
 .form{
@@ -21,6 +21,13 @@ p{
     padding-top: 1%;
     display: flex;
     justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header {
+        border: 1px solid;
+        box-shadow: 0px 5px 5px black;
+        margin-left: 35%;
+        margin-right: 35%;
 }
 label{
     display: flex;
@@ -77,3 +84,6 @@ select:hover{
     display: flex;
     justify-content: center;
 }
+
+
+
